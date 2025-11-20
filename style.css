@@ -71,7 +71,7 @@ ul>li::marker, ol>li::marker {
     font: var(--text-preset-1-mobile);
     color: var(--clr-stone-900);
 }
-p, li, td {
+li, p, td {
     font: var(--text-preset-4);
     color: var(--clr-stone-600);
 }
@@ -88,7 +88,7 @@ strong {
 }
 
 /* typography - desktop */
-@media (min-width: 450px) {
+@media (min-width: 28.125rem) {
     .recipe__heading {
         font: var(--text-preset-1-desktop);
     }
@@ -167,7 +167,7 @@ section.section li::marker {
 .attribution a { color: var(--clr-blue); }
 
 /* desktop layout design */
-@media (min-width: 450px) {
+@media (min-width: 28.125rem) {
     .recipe__img {
         border-radius: 0.75rem;
         overflow: hidden;
